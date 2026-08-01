@@ -1,7 +1,23 @@
 aid: practice
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/practice.png
 name: Practice
-description: Practice is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Practice (practice.do) was a Montreal-based all-in-one coaching and consulting
+  business platform that bundled scheduling, client portals, forms, contracts, invoicing,
+  and payments into a single tool for independent coaches. It raised a $10M seed round
+  in 2021 led by a16z (Andrew Chen participating). The company shut down permanently
+  on November 3, 2025 after a failed acquisition process; its domain no longer serves
+  a product and it exposes no public developer portal, documentation, or API surface.
 url: https://raw.githubusercontent.com/api-evangelist/practice/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +25,27 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-detail: 'Shut down 2025-11-03; practice.do returns HTTP 404 (Webflow-parked); no api/developer/docs subdomains resolve.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Coaching
+- Client Management
+- Scheduling
+- Payments
+- SaaS
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
