@@ -27,7 +27,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 x-status: defunct
 x-status-detail: 'Shut down 2025-11-03; practice.do returns HTTP 404 (Webflow-parked); no api/developer/docs subdomains resolve.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
